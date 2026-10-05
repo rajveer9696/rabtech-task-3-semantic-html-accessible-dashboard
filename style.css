@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f6f8;
+    color: #222;
+}
+
+header {
+    background: #12355b;
+    color: white;
+    padding: 20px;
+}
+
+header nav a,
+aside nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+aside {
+    background: #1d4e7a;
+    width: 220px;
+    min-height: 500px;
+    padding: 20px;
+    float: left;
+}
+
+aside nav a {
+    display: block;
+    margin: 15px 0;
+}
+
+main {
+    margin-left: 220px;
+    padding: 30px;
+}
+
+article {
+    display: inline-block;
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    min-width: 180px;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #999;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #e5e7eb;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    max-width: 500px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+footer {
+    clear: both;
+    background: #12355b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
