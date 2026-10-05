@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Enterprise Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Enterprise Dashboard</h1>
+
+    <nav aria-label="Main navigation">
+        <a href="index.html">Dashboard</a>
+        <a href="users.html">Users</a>
+    </nav>
+</header>
+
+<aside aria-label="Sidebar">
+    <h2>Menu</h2>
+    <nav aria-label="Sidebar navigation">
+        <a href="index.html">Dashboard</a>
+        <a href="users.html">Users</a>
+    </nav>
+</aside>
+
+<main>
+    <section>
+        <h2>Dashboard Overview</h2>
+
+        <article>
+            <h3>Total Users</h3>
+            <p>1,250</p>
+        </article>
+
+        <article>
+            <h3>Active Users</h3>
+            <p>980</p>
+        </article>
+
+        <article>
+            <h3>Revenue</h3>
+            <p>₹2,50,000</p>
+        </article>
+    </section>
+
+    <section>
+        <h2>User Data</h2>
+
+        <table>
+            <caption>Recent users</caption>
+
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Status</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Aditya</td>
+                    <td>aditya@example.com</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>Rahul</td>
+                    <td>rahul@example.com</td>
+                    <td>Active</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Contact Form</h2>
+
+        <form>
+            <fieldset>
+                <legend>Send a message</legend>
+
+                <label for="name">Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    aria-label="Your name"
+                >
+
+                <label for="email">Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    aria-label="Your email address"
+                >
+
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Enterprise Dashboard</p>
+</footer>
+
+</body>
+</html>
